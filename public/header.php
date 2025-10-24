@@ -7,7 +7,11 @@
         <div class="row">
           <!-- LOGO -->
             <div class="col-md-3">
-              <?php include 'public/logo.php'; ?>
+              <div class="header-logo">
+                <a href="#" class="logo">
+                  <img src="./img/logo.png" alt="">
+                </a>
+              </div>
             </div>
           <!-- BARRA DE BUSQUEDA -->
             <div class="col-md-6">
@@ -17,11 +21,22 @@
             <div class="col-md-3 clearfix">
               <div class="header-ctn">
                 <!-- WISHLIST -->
-                  <?php //include 'public/wishlist.php'; ?>
+                  <div>
+                    <a href="#">
+                      <i class="fa fa-heart-o"></i>
+                      <span>Your Wishlist</span>
+                      <div class="qty">2</div>
+                    </a>
+                  </div>
                 <!-- CARRITO -->
                   <?php include 'public/cart.php'; ?>
                 <!-- Menu Toogle -->
-                  <?php include 'public/menu_toggle.php'; ?>
+                  <div class="menu-toggle">
+                    <a href="#">
+                      <i class="fa fa-bars"></i>
+                      <span>Menu</span>
+                    </a>
+                  </div>
                 <!-- -->
               </div>
             </div>
